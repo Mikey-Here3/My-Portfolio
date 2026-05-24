@@ -22,9 +22,7 @@ export function Footer() {
             <p className="text-sm text-muted-foreground">
               &copy; {currentYear} {PERSONAL_INFO.name}. All rights reserved.
             </p>
-            <p className="mt-1 text-xs text-muted-foreground/60">
-              Built with Next.js &amp; TailwindCSS
-            </p>
+          
           </div>
 
           {/* Social Links */}
