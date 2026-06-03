@@ -47,7 +47,7 @@ export function Projects() {
                     </div>
                     {/* URL Bar */}
                     <div className="flex h-5 w-3/5 max-w-[240px] items-center justify-center rounded bg-background px-3 text-[10px] text-muted-foreground/80 font-mono border border-border/50 truncate">
-                      studyhouse.online/browse
+                      {featuredProject.liveUrl ? featuredProject.liveUrl.replace(/https?:\/\/(www\.)?/, "").split("/")[0] : "studyhouse.online"}
                     </div>
                     <div className="w-8" /> {/* Spacer */}
                   </div>
@@ -183,7 +183,7 @@ export function Projects() {
                       </div>
                       {/* URL Bar */}
                       <div className="flex h-4 w-1/2 max-w-[120px] items-center justify-center rounded bg-background px-2 text-[8px] text-muted-foreground/60 font-mono border border-border/30 truncate">
-                        {project.id === "stockpilot" ? "stockpilot.app" : project.id === "solevault" ? "solevault.shop" : "luxe.store"}
+                        {project.liveUrl ? project.liveUrl.replace(/https?:\/\/(www\.)?/, "").split("/")[0] : "demo.com"}
                       </div>
                       <div className="w-6" /> {/* Spacer */}
                     </div>

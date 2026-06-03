@@ -168,6 +168,66 @@ export const PROJECTS: Project[] = [
     liveUrl: "https://ecommerce-template-kohl.vercel.app/shop",
     featured: false,
   },
+  {
+    id: "studymikey",
+    title: "StudyMikey",
+    description:
+      "An interactive coding practice and skill verification platform for students. Features campus coding leagues, GitHub integration to track commits, real-time leaderboards, and recruiter dashboards.",
+    problem:
+      "Students needed a campus-focused platform to practice coding, sync their repositories, compete in contests, and build verified developer scorecards for talent sourcing.",
+    image: "/images/projects/studymikey.png",
+    techStack: ["Next.js", "React", "TypeScript", "TailwindCSS", "Node.js", "PostgreSQL"],
+    features: [
+      "Campus coding leagues and real-time student leaderboard",
+      "GitHub synchronization to automatically fetch repository stats",
+      "Interactive code runner sandbox for writing and validating solutions",
+      "Talent sourcing recruiter dashboard with developer scorecards",
+    ],
+    challenges:
+      "Building a secure code execution sandbox for running user code against multiple test cases and designing optimized database queries for live ranking computations.",
+    liveUrl: "https://study-mikey.vercel.app/",
+    featured: false,
+  },
+  {
+    id: "sunharistone",
+    title: "Sunhari Stone",
+    description:
+      "A premium luxury jewelry e-commerce storefront showcasing handcrafted jewelry and accessories. Featuring an elegant cream and gold aesthetic, curated brand storyboards, and fluid interactive cart management.",
+    problem:
+      "The brand required a bespoke, visually premium shopping experience that matches the high-quality nature of handcrafted gold jewelry and accessories.",
+    image: "/images/projects/sunharistone.png",
+    techStack: ["Next.js", "React", "TypeScript", "TailwindCSS", "Framer Motion"],
+    features: [
+      "Luxury visual layout with smooth page transitions and micro-animations",
+      "Curated story sections highlighting handcrafted artisan processes",
+      "Product showcase galleries with high-resolution image support",
+      "Interactive shopping cart and checkout flows",
+    ],
+    challenges:
+      "Achieving premium visual elegance and fluid transitions using Framer Motion while maintaining high performance and optimized image loading times.",
+    liveUrl: "https://sunharistone.online/",
+    featured: false,
+  },
+  {
+    id: "exploresmart",
+    title: "ExploreSmart",
+    description:
+      "An AI-powered travel planner designed for exploring Pakistan sustainably. Features customized AI itineraries, eco-score ratings, weather insights, and verified tour packages.",
+    problem:
+      "Travelers needed a smart, consolidated planner to discover safe, eco-friendly, and cost-effective travel routes in Pakistan's northern regions.",
+    image: "/images/projects/exploresmart.png",
+    techStack: ["Next.js", "React", "TypeScript", "TailwindCSS", "Gemini AI", "OpenWeather API"],
+    features: [
+      "AI itinerary generator based on travel preferences and duration",
+      "Eco-score ratings for hotels and transportation options",
+      "Real-time weather integration with region-specific safety alerts",
+      "Responsive user dashboard for saving and sharing plans",
+    ],
+    challenges:
+      "Integrating multiple APIs (maps, weather, AI models) and designing robust JSON schema parsing for generating valid, consistent AI travel recommendations.",
+    liveUrl: "https://trip-planner-ai-pi.vercel.app/",
+    featured: false,
+  },
 ];
 
 // ─── Experience ──────────────────────────────────────────────────────────────
